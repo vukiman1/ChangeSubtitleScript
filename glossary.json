@@ -107,6 +107,18 @@
       "replace": "network",
       "enabled": true,
       "notes": "mạng -> network"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])khối\\s*lượng(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])khoi\\s*luong(?![A-Za-zÀ-ỹ])",
+      "replace": "volume",
+      "enabled": true,
+      "notes": "khối lượng -> volume"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])ổ\\s*đĩa(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])o\\s*dia(?![A-Za-zÀ-ỹ])",
+      "replace": "volume",
+      "enabled": true,
+      "notes": "ổ đĩa -> volume"
     }
   ]
 }
