@@ -29,6 +29,84 @@
       "replace": "Detach Mode",
       "enabled": true,
       "notes": "chế độ tách rời -> Detach Mode"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])phản\\s*ứng(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])phan\\s*ung(?![A-Za-zÀ-ỹ])",
+      "replace": "ReactJS",
+      "enabled": true,
+      "notes": "phản ứng -> ReactJS"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])chương\\s*trình\\s*phụ\\s*trợ(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])chuong\\s*trinh\\s*phu\\s*tro(?![A-Za-zÀ-ỹ])",
+      "replace": "Backend",
+      "enabled": true,
+      "notes": "chương trình phụ trợ -> Backend"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])phụ\\s*trợ(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])phu\\s*tro(?![A-Za-zÀ-ỹ])",
+      "replace": "backend",
+      "enabled": true,
+      "notes": "phụ trợ -> backend"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])xuất\\s*bản(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])xuat\\s*ban(?![A-Za-zÀ-ỹ])",
+      "replace": "public",
+      "enabled": true,
+      "notes": "xuất bản -> public"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])thiết\\s*bị\\s*đầu\\s*cuối(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])thiet\\s*bi\\s*dau\\s*cuoi(?![A-Za-zÀ-ỹ])",
+      "replace": "terminal",
+      "enabled": true,
+      "notes": "thiết bị đầu cuối -> terminal"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])chế\\s*độ\\s*tách\\s*biệt(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])che\\s*do\\s*tach\\s*biet(?![A-Za-zÀ-ỹ])",
+      "replace": "Detach Mode",
+      "enabled": true,
+      "notes": "chế độ tách biệt -> Detach Mode"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])mã(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])ma(?![A-Za-zÀ-ỹ])",
+      "replace": "code",
+      "enabled": true,
+      "notes": "mã -> code"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])tệp\\s*docker(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])tep\\s*docker(?![A-Za-zÀ-ỹ])",
+      "replace": "Dockerfile",
+      "enabled": true,
+      "notes": "tệp docker -> Dockerfile"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])phụ\\s*thuộc(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])phu\\s*thuoc(?![A-Za-zÀ-ỹ])",
+      "replace": "Dependence",
+      "enabled": true,
+      "notes": "phụ thuộc -> Dependence"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])cài\\s*đặt\\s*NPM(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])cai\\s*dat\\s*NPM(?![A-Za-zÀ-ỹ])",
+      "replace": "Npm Install",
+      "enabled": true,
+      "notes": "cài đặt NPM -> Npm Install"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])lệnh(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])lenh(?![A-Za-zÀ-ỹ])",
+      "replace": "command",
+      "enabled": true,
+      "notes": "lệnh -> command"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])cổng(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])cong(?![A-Za-zÀ-ỹ])",
+      "replace": "PORT",
+      "enabled": true,
+      "notes": "cổng -> PORT"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])mạng(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])mang(?![A-Za-zÀ-ỹ])",
+      "replace": "network",
+      "enabled": true,
+      "notes": "mạng -> network"
     }
   ]
 }
