@@ -17,6 +17,18 @@
       "replace": "container",
       "enabled": true,
       "notes": "thùng chứa -> container"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])vùng\\s*chứa(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])vung\\s*chua(?![A-Za-zÀ-ỹ])",
+      "replace": "Container",
+      "enabled": true,
+      "notes": "vùng chứa -> Container"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])chế\\s*độ\\s*tách\\s*rời(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])che\\s*do\\s*tach\\s*roi(?![A-Za-zÀ-ỹ])",
+      "replace": "Detach Mode",
+      "enabled": true,
+      "notes": "chế độ tách rời -> Detach Mode"
     }
   ]
 }
