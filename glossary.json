@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])hình\\s*ảnh(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])hinh\\s*anh(?![A-Za-zÀ-ỹ])",
+      "replace": "Image",
+      "enabled": false,
+      "notes": "hình ảnh -> Image"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])nút(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])nut(?![A-Za-zÀ-ỹ])",
+      "replace": "node",
+      "enabled": true,
+      "notes": "nút -> node"
+    },
+    {
+      "pattern": "(?i)(?<![A-Za-zÀ-ỹ])thùng\\s*chứa(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])thùng\\s*chưa(?![A-Za-zÀ-ỹ])|(?<![A-Za-zÀ-ỹ])thung\\s*chua(?![A-Za-zÀ-ỹ])",
+      "replace": "container",
+      "enabled": true,
+      "notes": "thùng chứa -> container"
+    }
+  ]
+}
